@@ -1,4 +1,4 @@
-name: Deploy WordPress to Lightsail
+name: Deploy WordPress to Lightsail by Azhaganandhan
 
 on:
   push:
