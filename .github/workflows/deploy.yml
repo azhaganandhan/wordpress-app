@@ -31,6 +31,6 @@ jobs:
         run: |
           ssh ${{ secrets.LIGHTSAIL_USER }}@${{ secrets.LIGHTSAIL_HOST }} << 'EOF'
           cd /home/${{ secrets.LIGHTSAIL_USER }}/wordpress-app
-          docker compose down
-          docker compose up -d --build
+          docker-compose down
+          docker-compose up -d --build
           EOF
